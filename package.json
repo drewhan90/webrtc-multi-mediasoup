@@ -1,0 +1,25 @@
+{
+  "name": "webrtc-multi-mediasoup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "PORT=4000 nodemon server.js",
+    "watch": "watchify public/index.js -o public/bundle.js -v"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "httpolyglot": "^0.1.2",
+    "mediasoup": "^3.9.13",
+    "mediasoup-client": "^3.6.52",
+    "socket.io": "^4.5.1",
+    "socket.io-client": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "watchify": "^4.0.0"
+  }
+}
